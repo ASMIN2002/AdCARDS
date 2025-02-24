@@ -71,7 +71,6 @@ nav {
   max-width: var(--max-width);
   margin-inline: auto;
   z-index: 9;
-  
 }
 
 .nav__header {
@@ -104,7 +103,7 @@ nav {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  
+
   background-color: var(--primary-color);
   transition: 0.5s;
   z-index: -1;
@@ -411,8 +410,6 @@ nav {
   text-align: center;
 }
 
-
-
 .contact-section {
   padding: 80px 20px;
   margin-bottom: 10px;
@@ -435,7 +432,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
 }
-.rev{
+.rev {
   color: green;
   font-weight: bold;
 }
@@ -506,12 +503,12 @@ nav {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-.photo img{
+.photo img {
   max-height: 12rem;
   max-width: 14rem;
   border-radius: 10px;
 }
-.photo p{
+.photo p {
   text-align: center;
 }
 
@@ -522,19 +519,19 @@ nav {
 }
 .review {
   width: 100%;
-  overflow-x: auto; 
-  white-space: nowrap; 
+  overflow-x: auto;
+  white-space: nowrap;
   scrollbar-width: thin;
-  scrollbar-color: black aqua; 
+  scrollbar-color: black aqua;
 }
-.loc{
+.loc {
   color: rgb(173, 58, 58);
   font-weight: bold;
 }
-.nme{
+.nme {
   color: magenta;
 }
-.score{
+.score {
   color: blue;
   font-weight: bold;
 }
@@ -553,7 +550,6 @@ nav {
     padding: 15px;
   }
 }
-
 
 @media (width > 540px) {
   .deals__container {
@@ -596,18 +592,6 @@ nav {
   .nav__logo .logo {
     color: var(--primary-color);
   }
-  .leftlogo{
-    display: flex;
-  }
-  .nav__logo img{
-    height: 150px;
-    width: 150px;
-  }
-  .logo{
-    margin-top: 3.4rem;
-    margin-left: -25px;
-  }
-
   .nav__links {
     position: static;
     padding: 0;
